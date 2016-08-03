@@ -22,13 +22,17 @@
 ################################################################################
 # Write your functions below:
 # Body
+def is_triangle(a, b, c):
+    if (a+b > c and b+c > a and c+a > b):
+        print ("Yes")
+    else:
+        print ("No")
 
-
-
-
-
-
-
+def is_it_triangle():
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    return (is_triangle(a,b,c))
 
 
 # Write your functions above:
@@ -45,6 +49,7 @@ def main():
     check_stick_lengths()
     """
     print("Hello World!")
+    is_it_triangle()
 
 
 
