@@ -64,10 +64,8 @@ def sidebar():
 	print (y)
 
 def do_four(f):
-	f()
-	f()
-	f()
-	f()
+	do_twice(f)
+	do_twice(f)
 
 def grid():
 	oneline()
